@@ -1,5 +1,5 @@
 # My Food App structure will look like this, 
-   #         1) Header
+    #         1) Header
                 - Logo
                 - Nav Items(right side)
                 - Cart
