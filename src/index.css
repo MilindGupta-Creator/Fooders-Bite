@@ -32,3 +32,57 @@
   font-size: large;
   cursor: pointer;
 }
+
+/* Body CSS */
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+} 
+
+.search-container .search-input{
+  width: 40%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 5px;
+  color: #000000;
+  outline: none;
+  
+}
+
+.search-container .search-btn {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 5px;
+  margin-left:  4px;
+  
+}
+
+.restaurant-list {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  width:200px;
+  border-radius: 5px;
+  box-shadow: -1px 5px 10px 5px rgba(42, 42, 42, 0.2);
+  padding: 10px;
+  margin: 20px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card > span > h4 {
+  font-size: medium;
+}
+
+.card >img{
+  width: 100%;
+  border-radius: 10px;
+}
