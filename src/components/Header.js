@@ -2,7 +2,7 @@ import React from "react";
 
 const Title = () => (
   <a href="/">
-    <img className="logo" alt="Food Fire Logo" />
+    <img className="logo" alt="Food Fire Logo" src="https://content.jdmagicbox.com/comp/banaskantha/p8/9999p2748.2748.210921232217.w9p8/catalogue/food-bite-cafe-deesa-restaurants-ggzj564xj8.jpg" />
   </a>
 );
 
