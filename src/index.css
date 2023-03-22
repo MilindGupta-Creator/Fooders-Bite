@@ -99,3 +99,20 @@
   width: 100%;
   border-radius: 10px;
 }
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.arra{
+  margin-left: -260px;
+  margin-top: 60px;
+}
+.arraa{
+  margin-top: 40px;
+}
+
+.arraa >img{
+  border-radius: 20%;
+}
