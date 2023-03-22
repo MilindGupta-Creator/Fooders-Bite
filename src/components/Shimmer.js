@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 const Shimmer = () => {
   return (
-    <div>Page is loading</div>
-  )
-}
+    <div className='restaurant-list'>
+      {Array(10).fill("").map((e)=>(
+        <div className="shimmer-card"></div>
+      ))}
+    </div>
+  );
+};
 
 export default Shimmer

@@ -80,6 +80,14 @@
   padding: 10px;
   margin: 20px;
 }
+
+.shimmer-card {
+      width: 200px;
+      height: 200px;
+      background: lightgrey;
+      margin: 20px;
+  }
+
 .card:hover {
   transform: scale(1.05);
 }
